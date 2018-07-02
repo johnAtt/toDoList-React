@@ -1,0 +1,117 @@
+@font-face {
+    font-family: Allura;
+    src: url(./fonts/Allura-Regular.ttf);
+}
+
+@font-face {
+    font-family: Aurore;
+    src: url(./fonts/LaBelleAurore.ttf);
+}
+
+body{
+background-image: url("https://c.pxhere.com/photos/40/66/drawing_pad_note_pad_white_background_pen_blank_pad_business_paper-652303.jpg!d");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+#header, #container{
+    font-family: Allura;
+}
+
+#header {
+    opacity: 0.6;
+    background-color:black;
+    height: 70px;
+    justify-content: flex-end;
+}
+
+ul{
+    font-weight: 800;
+}
+
+#title {
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+}
+
+#header img {
+    width: 75px;
+    height: 75px;
+}
+.fa-check-circle{
+    background-color: green;
+    float: right;
+}
+.fa-trash{
+    background-color: red;
+    float: right;
+}
+.fa-arrow-circle-left{
+    background-color: blue;
+        float: right;
+}
+.fa{
+    border-radius:50%;
+}
+
+#doList li {
+    border:2px black solid;
+    display:block;
+    border-radius:30px;
+    margin-bottom: 10px; 
+    font-size: 30px;
+    font-family: Aurore;
+    word-wrap: break-word;
+}
+
+#doList {
+    font-size: 50px;
+    position:relative;
+    text-align: center;
+    top: 35px;
+    right: 68px;
+    padding: 16px;
+}
+
+#InputToDo, #InputBtn{
+    display:inline-block;
+    font-size: 30px;
+    font-family: Aurore;
+}
+
+#InputBtn {
+    background: #d9bc94;
+    border-radius: 7px;
+}
+
+#input{
+display:inline-grid;
+margin-top: 22px;
+}
+
+#doneList li {
+    border:2px black solid;
+    display:block;
+    border-radius:30px;
+    margin-bottom: 10px; 
+    font-size: 30px;
+    font-family: Aurore;
+    word-wrap: break-word;
+}
+
+#doneList {
+    font-size: 50px;
+    position:relative;
+    top:80px;
+    text-align: center;
+    right: 68px;
+    padding: 16px;
+}
+
+#container{
+    margin: auto;
+    width: 25%;
+}
